@@ -78,7 +78,7 @@ class Userbot(Client):
                 pass
             assistants.append(2)
             try:
-                await self.two.send_message(config.LOGGER_ID, "➻ 𝖠𝗌𝗂𝗌𝗍𝖺𝗇 𝖺𝗄𝗍𝗂𝖿 𝖾𝖽𝗂𝗅𝖽𝗂 ...\n𝖸𝖺𝗋𝖽ı𝗆 ➻ @Holigras")
+                await self.two.send_message(config.LOGGER_ID, "➻ 𝖠𝗌𝗂𝗌𝗍𝖺𝗇 𝖺𝗄𝗍𝗂𝖿 𝖾𝖽𝗂𝗅𝖽𝗂 ...\n𝖸𝖺𝗋𝖽ı𝗆 ➻ @BotsDestek")
             except:
                 LOGGER(__name__).error(
                     "2. 𝖠𝗌𝗂𝗌𝗍𝖺𝗇ı 𝖫𝗈𝗀 𝖦𝗋𝗎𝖻𝗎𝗇𝖺 𝖤𝗄𝗌̧𝖾𝗒𝗂𝗉 𝖸𝗈̈𝗇𝖾𝗍𝗂𝖼𝗂 𝖸𝖺𝗉ı𝗇 !"
@@ -93,8 +93,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("Holigras")
-                await self.three.join_chat("Holigras")
+                await self.three.join_chat("BotsDestek")
+                await self.three.join_chat("BotsDestek")
             except:
                 pass
             assistants.append(3)
@@ -114,13 +114,13 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("Holigras")
-                await self.four.join_chat("Holigras")
+                await self.four.join_chat("BotsDestek")
+                await self.four.join_chat("BotsDestek")
             except:
                 pass
             assistants.append(4)
             try:
-                await self.four.send_message(config.LOGGER_ID, "➻ 𝖠𝗌𝗂𝗌𝗍𝖺𝗇 𝖺𝗄𝗍𝗂𝖿 𝖾𝖽𝗂𝗅𝖽𝗂 ...\n𝖸𝖺𝗋𝖽ı𝗆 ➻ @Holigras")
+                await self.four.send_message(config.LOGGER_ID, "➻ 𝖠𝗌𝗂𝗌𝗍𝖺𝗇 𝖺𝗄𝗍𝗂𝖿 𝖾𝖽𝗂𝗅𝖽𝗂 ...\n𝖸𝖺𝗋𝖽ı𝗆 ➻ @BotsDestek")
             except:
                 LOGGER(__name__).error(
                     "4. 𝖠𝗌𝗂𝗌𝗍𝖺𝗇ı 𝖫𝗈𝗀 𝖦𝗋𝗎𝖻𝗎𝗇𝖺 𝖤𝗄𝗌̧𝖾𝗒𝗂𝗉 𝖸𝗈̈𝗇𝖾𝗍𝗂𝖼𝗂 𝖸𝖺𝗉ı𝗇 !"
